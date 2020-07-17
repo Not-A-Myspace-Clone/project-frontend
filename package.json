@@ -1,0 +1,28 @@
+{
+  "name": "project-frontend",
+  "version": "1.0.0",
+  "description": "Test push for front end (Gentry)",
+  "main": "project.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Not-A-Myspace-Clone/project-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jest": "^26.1.0",
+    "jquery": "^3.5.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Not-A-Myspace-Clone/project-frontend/issues"
+  },
+  "homepage": "https://github.com/Not-A-Myspace-Clone/project-frontend#readme"
+}
