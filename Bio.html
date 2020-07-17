@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid"></div>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="project2.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#">Bio</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div class="login-form">
+        <h1>Bio Form</h1>
+        <div action="auth" method="POST">
+            <p>Click on the "Choose File" button to upload a file:</p>
+
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+                <br>
+                <input type="submit">
+                <br>
+                <br>
+
+            </form>
+
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="password" name="Password" placeholder="Password" required>
+            <input type="text" name="Username" placeholder="Username" required>
+            <input type="text" name="E-mail" placeholder="E-mail" required>
+            <input type="text" name="Links" placeholder="Links" required>
+            <input type="text" name="Location" placeholder="Location" required>
+            <input type="submit">
+        </div>
+    </div>
+</body>
+
+</html>
