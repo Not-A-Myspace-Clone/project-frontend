@@ -29,24 +29,13 @@
 
     <div class="login-form">
         <h1>Bio Form</h1>
-        <div action="auth" method="POST">
-            <p>Click on the "Choose File" button to upload a file:</p>
-
-            <form action="/action_page.php">
-                <input type="file" id="myFile" name="filename">
-                <br>
-                <input type="submit">
-                <br>
-                <br>
-
-            </form>
-
-            <input type="text" name="Name" placeholder="Name" required>
-            <input type="password" name="Password" placeholder="Password" required>
-            <input type="text" name="Username" placeholder="Username" required>
-            <input type="text" name="E-mail" placeholder="E-mail" required>
-            <input type="text" name="Links" placeholder="Links" required>
-            <input type="text" name="Location" placeholder="Location" required>
+        <div action="https://nwcbc-project-2.herokuapp.com/user" method="POST">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="text" name="email" placeholder="E-Mail" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="text" name="bio" placeholder="Bio" required>
+            <input type="text" name="links" placeholder="Links" required>
+            <input type="text" name="location" placeholder="Location" required>
             <input type="submit">
         </div>
     </div>
