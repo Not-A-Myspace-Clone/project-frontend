@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Project 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="project2.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="Bio.html">Bio</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="col-sm-3 sidenav">
+      <img src="https://img.icons8.com/material-outlined/64/000000/anonymous-mask.png" alt="anonymous"
+        style="width:200px;"> </div>
+  </div>
+
+  <div class="container-fluid col-sm-3 sidenav">
+    <ul class="nav nav-pills nav-stacked">
+      <li class="active"><a href="#section1">Home</a></li>
+      <li class="name">Name</li>
+      <li class="username">Username</li>
+      <li class="email">E-mail</li>
+      <li class="description">Description</li>
+      <li class="email">E-mail</li>
+      <li class="link"><a href=>link</a></li>
+      <li class="location">Location</li>
+    </ul><br>
+  </div>
+
+  <div class="col-sm-6 newpost">
+    <form>
+      <div class="form-group">
+        <label for="">New Post</label>
+        <input id="name" class="form-control" type="text" placeholder="New Post">
+      </div>
+
+      <div class="form-group text-center">
+        <button id="my_button" class="btn btn-outline-success btn-lg" type="button">
+          Post
+        </button>
+      </div>
+    </form>
+
+
+  </div>
+
+  <div class="col-sm-9 recentpost">
+    <h4><small>RECENT POSTS</small></h4>
+    <hr>
+    <div id="my_div"></div>
+    <hr>
+
+    <br><br>
+
+    <footer class="container-fluid">
+      <p>Footer Text</p>
+    </footer>
+    <script type="text/javascript" src="project.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../project-frontend/views/project2.js"></script>
+
+</body>
+
+</html>
